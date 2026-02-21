@@ -34,6 +34,25 @@ export const categories = [
 export const guides: StyleGuide[] = [
 
   {
+    slug: 'ultimate-secure-messaging-apps-protect-your-conversations',
+    title: 'Ultimate Secure Messaging Apps: Protect Your Conversations',
+    category: 'secure-messaging',
+    description: 'Discover the top secure messaging apps – Signal, Threema, and Session – for truly private conversations. Learn about their encryption, privacy, and real-world security.',
+    readTime: '8 min',
+    date: '2026-02-21',
+    tag: 'Editor Pick',
+    emoji: '🔒',
+    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=400&fit=crop',
+    affiliateProducts: [
+      { name: 'Signal', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Signal&tag=securecg-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=200&h=200&fit=crop' },
+      { name: 'Threema', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Threema&tag=securecg-20', image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=200&h=200&fit=crop' },
+      { name: 'Session', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Session&tag=securecg-20', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&h=200&fit=crop' },
+      { name: 'Proton Mail', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Proton+Mail&tag=securecg-20', image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&h=200&fit=crop' },
+      { name: 'Tutanota', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Tutanota&tag=securecg-20', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&h=200&fit=crop' },
+    ],
+  },
+
+  {
     slug: 'secure-browsing-explained-how-to-choose-a-privacy-focused-browser',
     title: 'Secure Browsing Explained: How to Choose a Privacy-Focused Browser',
     category: 'guides',
