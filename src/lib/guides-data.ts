@@ -34,6 +34,24 @@ export const categories = [
 export const guides: StyleGuide[] = [
 
   {
+    slug: 'lastpass-vs-bitwarden-choosing-the-right-password-manager',
+    title: 'LastPass vs. Bitwarden: Choosing the Right Password Manager',
+    category: 'password-managers',
+    description: 'An honest, hands-on comparison of LastPass and Bitwarden to help you choose the best password manager for your cybersecurity needs.',
+    readTime: '12 min',
+    date: '2026-02-21',
+    tag: 'Editor Pick',
+    emoji: '🔐',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop',
+    affiliateProducts: [
+      { name: 'LastPass', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=LastPass&tag=securecg-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=200&h=200&fit=crop' },
+      { name: 'Bitwarden', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Bitwarden&tag=securecg-20', image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=200&h=200&fit=crop' },
+      { name: 'KeePass', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=KeePass&tag=securecg-20', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&h=200&fit=crop' },
+      { name: '1Password', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=1Password&tag=securecg-20', image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&h=200&fit=crop' },
+    ],
+  },
+
+  {
     slug: 'bitdefender-vs-norton-360-antivirus-face-off',
     title: 'Antivirus Face-Off: Bitdefender vs. Norton 360 for Max Protection',
     category: 'antivirus',
