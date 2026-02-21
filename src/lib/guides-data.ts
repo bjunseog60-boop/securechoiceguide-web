@@ -34,6 +34,25 @@ export const categories = [
 export const guides: StyleGuide[] = [
 
   {
+    slug: 'beyond-antivirus-zero-day-malware',
+    title: 'Beyond Antivirus: Essential Steps to Protect Against Zero-Day Malware',
+    category: 'antivirus',
+    description: 'Go beyond basic antivirus. Learn advanced strategies and essential tools to defend your devices from sophisticated zero-day malware attacks.',
+    readTime: '10 min',
+    date: '2026-02-21',
+    tag: 'Editor Pick',
+    emoji: '🛡️',
+    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=400&fit=crop',
+    affiliateProducts: [
+      { name: 'ESET', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=ESET&tag=securecg-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=200&h=200&fit=crop' },
+      { name: 'Malwarebytes', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Malwarebytes&tag=securecg-20', image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=200&h=200&fit=crop' },
+      { name: 'CrowdStrike', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=CrowdStrike&tag=securecg-20', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&h=200&fit=crop' },
+      { name: 'password manager', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=password+manager&tag=securecg-20', image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&h=200&fit=crop' },
+      { name: 'VPNs', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=VPNs&tag=securecg-20', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&h=200&fit=crop' },
+    ],
+  },
+
+  {
     slug: 'antivirus-showdown-ultimate-pc-security',
     title: 'Antivirus Showdown: The Ultimate Comparison for Total PC Security',
     category: 'antivirus',
