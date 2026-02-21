@@ -34,6 +34,25 @@ export const categories = [
 export const guides: StyleGuide[] = [
 
   {
+    slug: 'is-a-free-vpn-worth-it-deep-dive',
+    title: 'Is a Free VPN Worth It? A Deep Dive into the Best Free Options',
+    category: 'vpn-reviews',
+    description: 'Unlock the truth about free VPNs. Our hands-on review identifies the safest, most reliable choices for casual online privacy without hidden costs.',
+    readTime: '12 min',
+    date: '2026-02-21',
+    tag: 'Editor Pick',
+    emoji: '🛡️',
+    image: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&h=400&fit=crop',
+    affiliateProducts: [
+      { name: 'Proton VPN Free', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Proton+VPN+Free&tag=securecg-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=200&h=200&fit=crop' },
+      { name: 'Windscribe Free', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Windscribe+Free&tag=securecg-20', image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=200&h=200&fit=crop' },
+      { name: 'TunnelBear Free', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=TunnelBear+Free&tag=securecg-20', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&h=200&fit=crop' },
+      { name: 'Proton VPN (Paid)', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Proton+VPN+%28Paid%29&tag=securecg-20', image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&h=200&fit=crop' },
+      { name: 'Windscribe (Paid)', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Windscribe+%28Paid%29&tag=securecg-20', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&h=200&fit=crop' },
+    ],
+  },
+
+  {
     slug: 'best-vpns-2026-ultimate-online-privacy',
     title: 'Best VPNs for 2026: Top Choices for Ultimate Online Privacy',
     category: 'vpn-reviews',
