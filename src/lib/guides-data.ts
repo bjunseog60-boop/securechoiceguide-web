@@ -34,6 +34,25 @@ export const categories = [
 export const guides: StyleGuide[] = [
 
   {
+    slug: 'mastering-cybersecurity-essential-tips-protecting-digital-life',
+    title: 'Mastering Cybersecurity: Essential Tips for Protecting Your Digital Life',
+    category: 'guides',
+    description: 'Unlock expert cybersecurity tips to fortify your online presence. This guide covers password managers, MFA, VPNs, and essential online privacy tools.',
+    readTime: '12 min',
+    date: '2026-02-21',
+    tag: 'Editor Pick',
+    emoji: '🔒',
+    image: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&h=400&fit=crop',
+    affiliateProducts: [
+      { name: 'Multi-factor Authentication', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Multi-factor+Authentication&tag=securecg-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=200&h=200&fit=crop' },
+      { name: 'Bitwarden', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Bitwarden&tag=securecg-20', image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=200&h=200&fit=crop' },
+      { name: '1Password', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=1Password&tag=securecg-20', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&h=200&fit=crop' },
+      { name: 'ProtonVPN', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=ProtonVPN&tag=securecg-20', image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&h=200&fit=crop' },
+      { name: 'NordVPN', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=NordVPN&tag=securecg-20', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&h=200&fit=crop' },
+    ],
+  },
+
+  {
     slug: 'lastpass-vs-bitwarden-choosing-the-right-password-manager',
     title: 'LastPass vs. Bitwarden: Choosing the Right Password Manager',
     category: 'password-managers',
