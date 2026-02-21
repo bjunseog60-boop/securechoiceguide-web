@@ -9,22 +9,18 @@ import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from '@/lib/constants';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: 'StyleMeDaily – Personal Style Guides for Every Woman', template: '%s | StyleMeDaily' },
+  title: { default: 'SecureChoiceGuide - VPN Reviews & Online Privacy Guides', template: '%s | SecureChoiceGuide' },
   description: SITE_DESCRIPTION,
-  keywords: ['personal stylist', 'fashion guide', 'outfit ideas', 'capsule wardrobe', 'what to wear', 'style tips women', 'women fashion 2026', 'affordable fashion', 'work outfits', 'date night outfits', 'spring fashion trends'],
-  verification: {
-    google: 'v9fb-JiTMvkHcxCMF',
-  },
+  keywords: ['best vpn 2026', 'vpn reviews', 'online privacy', 'cybersecurity tools', 'password manager', 'internet security', 'vpn comparison', 'nordvpn review', 'expressvpn review', 'online safety guide', 'privacy protection'],
   other: {
-    'p:domain_verify': 'c4d58b4c8b49f1f1f37420d23dc4b510',
     'google-adsense-account': 'ca-pub-8049649445649586',
   },
   openGraph: {
     type: 'website', locale: 'en_US', url: SITE_URL, siteName: SITE_NAME,
-    title: 'StyleMeDaily – Personal Style Guides for Every Woman',
-    description: 'Expert styling guides, curated outfit ideas, and personalized fashion advice.',
+    title: 'SecureChoiceGuide - VPN Reviews & Online Privacy Guides',
+    description: 'Expert VPN reviews, cybersecurity tool comparisons, and privacy guides to keep you safe online.',
   },
-  twitter: { card: 'summary_large_image', site: '@stylemedaily', creator: '@stylemedaily' },
+  twitter: { card: 'summary_large_image', site: '@SecureChoiceG', creator: '@SecureChoiceG' },
   alternates: { canonical: SITE_URL },
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {

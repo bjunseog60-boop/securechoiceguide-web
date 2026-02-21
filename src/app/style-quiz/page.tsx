@@ -3,13 +3,13 @@ import { SITE_URL, SITE_NAME } from '@/lib/constants';
 import StyleQuizClient from './StyleQuizClient';
 
 export const metadata: Metadata = {
-  title: 'Free Style Quiz — Discover Your Style Personality',
-  description: 'Take our free 5-question style quiz to discover your fashion personality and get personalized outfit recommendations tailored to your lifestyle and budget.',
-  keywords: ['style quiz', 'fashion personality', 'what is my style', 'personal style quiz', 'outfit quiz'],
+  title: 'Free Security Assessment — Check Your Online Privacy',
+  description: 'Take our free security assessment to evaluate your online privacy and get personalized recommendations for VPNs, password managers, and security tools.',
+  keywords: ['security assessment', 'privacy check', 'online safety quiz', 'vpn quiz', 'cybersecurity assessment'],
   alternates: { canonical: `${SITE_URL}/style-quiz` },
   openGraph: {
-    title: 'Free Style Quiz — Discover Your Style Personality',
-    description: 'Take our free 5-question style quiz and get personalized outfit recommendations.',
+    title: 'Free Security Assessment — Check Your Online Privacy',
+    description: 'Take our free security assessment and get personalized privacy recommendations.',
     url: `${SITE_URL}/style-quiz`,
     siteName: SITE_NAME,
     type: 'website',
@@ -20,8 +20,8 @@ export default function StyleQuizPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Quiz',
-    name: 'StyleMeDaily Style Personality Quiz',
-    description: 'Discover your fashion personality with our free 5-question style quiz.',
+    name: 'SecureChoiceGuide Online Security Assessment',
+    description: 'Evaluate your online privacy with our free security assessment quiz.',
     url: `${SITE_URL}/style-quiz`,
     provider: {
       '@type': 'Organization',

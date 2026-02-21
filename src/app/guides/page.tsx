@@ -4,13 +4,13 @@ import { guides } from '@/lib/guides-data';
 import GuidesClient from './GuidesClient';
 
 export const metadata: Metadata = {
-  title: 'Style Guides — Outfit Ideas & Fashion Tips for Every Woman',
-  description: 'Browse expert styling guides with outfit ideas, capsule wardrobe tips, and fashion advice for work, dates, casual, and special occasions.',
-  keywords: ['style guides', 'outfit ideas', 'fashion tips', 'capsule wardrobe', 'what to wear', 'women fashion 2026'],
+  title: 'VPN Reviews & Privacy Guides - Expert Security Recommendations',
+  description: 'Browse expert VPN reviews, cybersecurity tool comparisons, and online privacy guides. Find the best security solutions for your needs.',
+  keywords: ['vpn reviews', 'best vpn 2026', 'cybersecurity guides', 'privacy tools', 'online security', 'vpn comparison'],
   alternates: { canonical: `${SITE_URL}/guides` },
   openGraph: {
-    title: 'Style Guides — Outfit Ideas & Fashion Tips',
-    description: 'Browse expert styling guides with outfit ideas and fashion advice for every occasion.',
+    title: 'VPN Reviews & Privacy Guides - Expert Security Recommendations',
+    description: 'Browse expert VPN reviews, cybersecurity tool comparisons, and online privacy guides.',
     url: `${SITE_URL}/guides`,
     siteName: SITE_NAME,
     type: 'website',
@@ -21,8 +21,8 @@ export default function GuidesPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: 'StyleMeDaily Style Guides',
-    description: 'Browse expert styling guides with outfit ideas and fashion advice.',
+    name: 'SecureChoiceGuide VPN Reviews & Privacy Guides',
+    description: 'Browse expert VPN reviews, cybersecurity tool comparisons, and privacy guides.',
     url: `${SITE_URL}/guides`,
     mainEntity: {
       '@type': 'ItemList',

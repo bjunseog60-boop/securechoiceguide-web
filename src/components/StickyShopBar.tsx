@@ -23,25 +23,25 @@ export default function StickyShopBar({ productCount, firstProductUrl }: StickyS
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden animate-slide-in-bottom">
-      <div className="bg-white border-t border-gray-200 shadow-lg px-4 py-3 flex items-center gap-3">
+      <div className="bg-gray-900 border-t border-gray-700 shadow-lg px-4 py-3 flex items-center gap-3">
         <div className="flex-1">
-          <p className="text-sm font-semibold text-gray-900">{productCount} items in this guide</p>
-          <p className="text-xs text-gray-400">Tap to shop curated picks</p>
+          <p className="text-sm font-semibold text-white">{productCount} tools in this review</p>
+          <p className="text-xs text-gray-400">Tap to see deals</p>
         </div>
         <a
           href={firstProductUrl}
           target="_blank"
           rel="noopener noreferrer nofollow"
-          className="bg-gray-900 text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-gray-800 transition-colors whitespace-nowrap"
+          className="bg-emerald-500 text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-emerald-600 transition-colors whitespace-nowrap"
         >
-          Shop {productCount} Items
+          View {productCount} Tools
         </a>
         <button
           onClick={() => setDismissed(true)}
-          className="text-gray-400 hover:text-gray-600 text-lg leading-none"
+          className="text-gray-400 hover:text-white text-lg leading-none"
           aria-label="Dismiss"
         >
-          ✕
+          &#x2715;
         </button>
       </div>
     </div>

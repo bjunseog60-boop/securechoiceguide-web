@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect, useRef } from 'react';
 
-const POPUP_KEY = 'smd_popup_shown';
+const POPUP_KEY = 'scg_popup_shown';
 const SHOW_DELAY_MS = 30000;
 
 export default function NewsletterPopup() {
@@ -36,25 +36,17 @@ export default function NewsletterPopup() {
 
   return (
     <div role="dialog" aria-modal="true" aria-labelledby="newsletter-popup-title" className="fixed inset-0 z-50 flex items-center justify-center p-4">
-      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" onClick={dismiss} />
-      <div className="relative bg-white rounded-2xl p-8 max-w-sm w-full shadow-2xl animate-fade-in text-center">
-        <button onClick={dismiss} aria-label="Close" className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors text-lg leading-none">✕</button>
-        <span className="text-3xl block mb-3">✨</span>
-        <h2 id="newsletter-popup-title" className="font-display text-xl font-bold text-gray-900 mb-2">Get the Weekly Style Edit</h2>
+      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={dismiss} />
+      <div className="relative bg-gray-800 border border-gray-700 rounded-2xl p-8 max-w-sm w-full shadow-2xl animate-fade-in text-center">
+        <button onClick={dismiss} aria-label="Close" className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors text-lg leading-none">&#x2715;</button>
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-400 mx-auto mb-3"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+        <h2 id="newsletter-popup-title" className="font-body text-xl font-bold text-white mb-2">Stay Protected Online</h2>
         <p className="text-sm text-gray-400 mb-5 leading-relaxed">
-          Outfit ideas, trend reports, and curated Amazon finds — every Thursday.
-          <strong className="block text-gray-600 mt-1">Free, every Thursday.</strong>
+          Get weekly VPN deals, security alerts, and privacy tips.
+          <strong className="block text-gray-300 mt-1">Free, every Thursday.</strong>
         </p>
-        <iframe
-          src="https://trendloopusa.substack.com/embed"
-          title="Newsletter signup form"
-          width="100%"
-          height="130"
-          style={{ border: '1px solid #EEE', background: 'white', borderRadius: '12px', display: 'block', margin: '0 auto' }}
-          frameBorder={0}
-          scrolling="no"
-        />
-        <button onClick={dismiss} className="text-[11px] text-gray-400 mt-3 hover:text-gray-600 transition-colors underline block mx-auto">
+        <div className="text-sm text-emerald-400 font-medium mb-3">Coming soon</div>
+        <button onClick={dismiss} className="text-[11px] text-gray-500 mt-3 hover:text-gray-300 transition-colors underline block mx-auto">
           No thanks
         </button>
       </div>

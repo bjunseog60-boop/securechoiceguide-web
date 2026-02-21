@@ -22,13 +22,13 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title: guide.title,
     description: guide.description,
-    keywords: `${guide.category}, fashion guide, style tips, ${guide.title.toLowerCase()}, women fashion 2026, outfit ideas`,
+    keywords: `${guide.category}, vpn review, security guide, ${guide.title.toLowerCase()}, online privacy 2026, cybersecurity`,
     openGraph: {
       title: guide.title,
       description: guide.description,
       type: 'article',
       publishedTime: guide.date,
-      authors: ['TrendLoop USA Team'],
+      authors: ['SecureChoiceGuide Team'],
       images: guide.image ? [{ url: guide.image, width: 1200, height: 630 }] : [],
       siteName: SITE_NAME,
       url: `${SITE_URL}/guides/${params.slug}`,
@@ -121,9 +121,9 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
       <article className="pt-8 max-w-3xl mx-auto">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm text-gray-400 mb-6">
-          <Link href="/" className="hover:text-gray-600">Home</Link>
+          <Link href="/" className="hover:text-emerald-400">Home</Link>
           <span>/</span>
-          <Link href="/guides" className="hover:text-gray-600">Guides</Link>
+          <Link href="/guides" className="hover:text-emerald-400">Guides</Link>
           <span>/</span>
           <span className="text-gray-600 capitalize">{guide.category.replace('-', ' ')}</span>
         </nav>
@@ -134,12 +134,12 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
             <span className="badge-new">{guide.tag}</span>
             <span className="text-xs text-gray-400">{guide.readTime} read</span>
           </div>
-          <h1 className="font-display text-3xl sm:text-4xl font-bold text-gray-900 leading-tight mb-4">
+          <h1 className="font-body text-3xl sm:text-4xl font-bold text-white leading-tight mb-4">
             {guide.title}
           </h1>
           <p className="text-lg text-gray-400 leading-relaxed">{guide.description}</p>
           <div className="flex items-center gap-4 mt-4 text-sm text-gray-400">
-            <span>By TrendLoop USA Team</span>
+            <span>By SecureChoiceGuide Team</span>
             <span>·</span>
             <span>{new Date(guide.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
           </div>
@@ -154,12 +154,12 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
 
         {/* Quick Shop Banner — Clean */}
         {products.length > 0 && (
-          <div className="mb-8 bg-gray-50 border border-gray-100 rounded-xl p-4 flex items-center justify-between">
+          <div className="mb-8 bg-gray-800/50 border border-gray-700 rounded-xl p-4 flex items-center justify-between">
             <div>
-              <p className="font-semibold text-sm text-gray-900">{products.length} curated items in this guide</p>
+              <p className="font-semibold text-sm text-white">{products.length} curated items in this guide</p>
               <p className="text-xs text-gray-400 mt-0.5">Prices start at {minPrice < 999 ? `$${minPrice}` : '$15'}</p>
             </div>
-            <a href="#shop-the-look" className="text-sm text-gray-500 hover:text-gray-900 font-medium transition-colors">
+            <a href="#shop-the-look" className="text-sm text-gray-500 hover:text-white font-medium transition-colors">
               View all
             </a>
           </div>
@@ -174,8 +174,8 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
 
         {/* Table of Contents */}
         {guidesContent[guide.slug] && (
-          <div className="border border-gray-100 rounded-xl p-5 mb-8 bg-white">
-            <h3 className="font-display font-bold text-sm text-gray-700 mb-3">In This Guide</h3>
+          <div className="border border-gray-700 rounded-xl p-5 mb-8 bg-gray-800">
+            <h3 className="font-body font-bold text-sm text-gray-700 mb-3">In This Guide</h3>
             <ul className="space-y-2">
               {guidesContent[guide.slug].map((section, idx) => (
                 <li key={idx} className="flex items-center gap-2 text-sm text-gray-500">
@@ -234,8 +234,8 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
         )}
 
         {/* Share & Save */}
-        <div className="border border-gray-100 rounded-xl p-5 my-8 bg-white">
-          <p className="font-display font-bold text-gray-900 text-sm mb-1 text-center">Found this helpful?</p>
+        <div className="border border-gray-700 rounded-xl p-5 my-8 bg-gray-800">
+          <p className="font-body font-bold text-white text-sm mb-1 text-center">Found this helpful?</p>
           <p className="text-xs text-gray-400 mb-4 text-center">Share it with someone who&apos;d love it.</p>
           <ShareButtons
             url={`${SITE_URL}/guides/${guide.slug}`}
@@ -247,7 +247,7 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
         {/* Related Guides */}
         {related.length > 0 && (
           <div className="mt-10 mb-8">
-            <h3 className="font-display font-bold text-gray-900 mb-4">You Might Also Like</h3>
+            <h3 className="font-body font-bold text-white mb-4">You Might Also Like</h3>
             <div className="grid gap-3">
               {related.map(r => (
                 <Link key={r.slug} href={`/guides/${r.slug}`} className="card-hover p-4 flex items-center gap-4 group">
@@ -257,7 +257,7 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
                     <div className="w-16 h-16 rounded-xl bg-gray-100" />
                   )}
                   <div className="flex-1">
-                    <p className="font-semibold text-sm text-gray-800 group-hover:text-gray-600 transition-colors">{r.title}</p>
+                    <p className="font-semibold text-sm text-gray-800 group-hover:text-emerald-400 transition-colors">{r.title}</p>
                     <p className="text-xs text-gray-400">{r.readTime} · {r.tag}</p>
                   </div>
                 </Link>
@@ -269,7 +269,7 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
         {/* More From StyleMeDaily */}
         {moreGuides.length > 0 && (
           <div className="mb-8">
-            <h3 className="font-display font-bold text-gray-900 mb-4">Explore More Guides</h3>
+            <h3 className="font-body font-bold text-white mb-4">Explore More Guides</h3>
             <div className="grid gap-3">
               {moreGuides.map(r => (
                 <Link key={r.slug} href={`/guides/${r.slug}`} className="card-hover p-4 flex items-center gap-4 group">
@@ -279,7 +279,7 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
                     <div className="w-16 h-16 rounded-xl bg-gray-100" />
                   )}
                   <div className="flex-1">
-                    <p className="font-semibold text-sm text-gray-800 group-hover:text-gray-600 transition-colors">{r.title}</p>
+                    <p className="font-semibold text-sm text-gray-800 group-hover:text-emerald-400 transition-colors">{r.title}</p>
                     <p className="text-xs text-gray-400">{r.readTime} · {r.tag}</p>
                   </div>
                 </Link>

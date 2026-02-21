@@ -21,7 +21,7 @@ export default function ShopByCategory() {
         <p className="text-sm text-gray-400 mt-1">Find exactly what you need</p>
       </div>
 
-      <div className="flex gap-1 border-b border-gray-100 mb-6 overflow-x-auto">
+      <div className="flex gap-1 border-b border-gray-700 mb-6 overflow-x-auto">
         {shopCategories.map(cat => (
           <button
             key={cat.slug}
@@ -45,7 +45,7 @@ export default function ShopByCategory() {
             className="product-card group block"
           >
             {p.image ? (
-              <div className="relative h-40 overflow-hidden bg-gray-50">
+              <div className="relative h-40 overflow-hidden bg-gray-900">
                 <Image
                   src={p.image}
                   alt={p.name}
@@ -60,13 +60,13 @@ export default function ShopByCategory() {
                 </div>
               </div>
             ) : (
-              <div className="h-40 bg-gray-50 flex items-center justify-center">
+              <div className="h-40 bg-gray-900 flex items-center justify-center">
                 <span className="text-gray-300 text-sm">No image</span>
               </div>
             )}
             <div className="p-3">
               <p className="text-[11px] text-gray-400 uppercase tracking-wide">{p.brand}</p>
-              <h4 className="font-medium text-sm text-gray-800 group-hover:text-gray-900 transition-colors leading-tight mt-0.5 line-clamp-2">
+              <h4 className="font-medium text-sm text-gray-200 group-hover:text-white transition-colors leading-tight mt-0.5 line-clamp-2">
                 {p.name}
               </h4>
               <div className="flex items-center gap-2 mt-1.5">
@@ -78,7 +78,7 @@ export default function ShopByCategory() {
       </div>
 
       <div className="text-center mt-6">
-        <a href="/shop" className="inline-block text-sm text-gray-500 hover:text-gray-900 font-medium border border-gray-200 px-6 py-2.5 rounded-lg hover:border-gray-300 transition-all">
+        <a href="/shop" className="inline-block text-sm text-gray-500 hover:text-white font-medium border border-gray-600 px-6 py-2.5 rounded-lg hover:border-gray-500 transition-all">
           Browse all {active === 'all' ? '' : shopCategories.find(c => c.slug === active)?.name.toLowerCase() + ' '}items
         </a>
       </div>

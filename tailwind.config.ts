@@ -6,20 +6,20 @@ const config: Config = {
     extend: {
       colors: {
         rose: {
-          50: '#fff1f2', 100: '#ffe4e6', 200: '#fecdd3', 300: '#fda4af',
-          400: '#fb7185', 500: '#f43f5e', 600: '#e11d48', 700: '#be123c',
-          800: '#9f1239', 900: '#881337',
+          50: '#ecfdf5', 100: '#d1fae5', 200: '#a7f3d0', 300: '#6ee7b7',
+          400: '#34d399', 500: '#10b981', 600: '#059669', 700: '#047857',
+          800: '#065f46', 900: '#064e3b',
         },
         blush: {
-          50: '#fdf2f8', 100: '#fce7f3', 200: '#fbcfe8', 300: '#f9a8d4',
-          400: '#f472b6', 500: '#ec4899', 600: '#db2777', 700: '#be185d',
+          50: '#ecfdf5', 100: '#d1fae5', 200: '#a7f3d0', 300: '#6ee7b7',
+          400: '#34d399', 500: '#10b981', 600: '#059669', 700: '#047857',
         },
-        cream: '#fefbf6',
-        champagne: '#f5f0eb',
+        cream: '#0f172a',
+        champagne: '#1e293b',
       },
       fontFamily: {
-        display: ['Playfair Display', 'Georgia', 'serif'],
-        body: ['DM Sans', 'Helvetica', 'sans-serif'],
+        display: ['Inter', 'Helvetica', 'sans-serif'],
+        body: ['Inter', 'Helvetica', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace'],
       },
       animation: {

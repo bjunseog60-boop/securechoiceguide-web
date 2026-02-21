@@ -3,9 +3,9 @@ import { getAllProducts, shopCategories } from '@/lib/guides-data';
 import ShopPageClient from './ShopPageClient';
 
 export const metadata: Metadata = {
-  title: 'Shop All Items — Curated Fashion Picks',
-  description: 'Browse all curated fashion items from our style guides. Filter by category and price to find your perfect pieces.',
-  keywords: ['shop fashion', 'curated fashion', 'affordable fashion', 'women clothing', 'style picks 2026'],
+  title: 'Security Tools — VPN, Antivirus & Privacy Software',
+  description: 'Browse our curated selection of VPNs, password managers, antivirus software, and privacy tools. Expert-vetted security recommendations.',
+  keywords: ['best vpn deals', 'security software', 'password manager', 'antivirus 2026', 'privacy tools', 'vpn discount'],
 };
 
 export default function ShopPage() {

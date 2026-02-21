@@ -37,7 +37,7 @@ export default function GuideCard({ guide }: { guide: StyleGuide }) {
         </div>
       )}
       <div className="p-5">
-        <h3 className="font-display font-bold text-gray-900 group-hover:text-gray-600 transition-colors mb-2 leading-snug">
+        <h3 className="font-body font-bold text-white group-hover:text-emerald-400 transition-colors mb-2 leading-snug">
           {guide.title}
         </h3>
         <p className="text-sm text-gray-400 line-clamp-2 mb-3">{guide.description}</p>
@@ -47,11 +47,11 @@ export default function GuideCard({ guide }: { guide: StyleGuide }) {
             <div className="flex -space-x-2">
               {guide.affiliateProducts.slice(0, 3).map((p, i) => (
                 p.image ? (
-                  <div key={i} className="w-7 h-7 rounded-full border-2 border-white overflow-hidden relative">
+                  <div key={i} className="w-7 h-7 rounded-full border-2 border-gray-800 overflow-hidden relative">
                     <Image src={p.image} alt={p.name} fill sizes="28px" className="object-cover" />
                   </div>
                 ) : (
-                  <div key={i} className="w-7 h-7 rounded-full border-2 border-white bg-gray-100" />
+                  <div key={i} className="w-7 h-7 rounded-full border-2 border-gray-800 bg-gray-100" />
                 )
               ))}
             </div>
