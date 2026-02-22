@@ -12,10 +12,10 @@ export default function HomePage() {
   const editorPicks = guides.slice(0, 3);
 
   const featuredGuides = [
-    { title: 'Best VPNs 2026', image: '/images/categories/featured-best-vpns-2026.svg', url: '/guides/best-vpns-2026-ultimate-online-privacy' },
-    { title: 'NordVPN vs ExpressVPN', image: '/images/categories/featured-nordvpn-vs-expressvpn.svg', url: '/guides/nordvpn-vs-expressvpn-ultimate-battle-online-security' },
-    { title: 'Best Password Managers', image: '/images/categories/featured-best-password-managers.svg', url: '/guides/best-password-managers-2026' },
-    { title: 'Online Privacy Guide', image: '/images/categories/featured-online-privacy-guide.svg', url: '/guides/complete-online-privacy-guide-2026' },
+    { title: 'Best VPNs 2026', image: '/images/categories/cat-best-vpns.webp', url: '/guides/best-vpns-2026-ultimate-online-privacy' },
+    { title: 'NordVPN vs ExpressVPN', image: '/images/categories/cat-nordvpn-express.webp', url: '/guides/nordvpn-vs-expressvpn-ultimate-battle-online-security' },
+    { title: 'Best Password Managers', image: '/images/categories/cat-password-manager.webp', url: '/guides/best-password-managers-2026' },
+    { title: 'Online Privacy Guide', image: '/images/categories/cat-privacy-guide.webp', url: '/guides/complete-online-privacy-guide-2026' },
   ];
 
   const organizationJsonLd = {
