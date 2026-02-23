@@ -1,39 +1,29 @@
 'use client';
-import Image, { ImageProps } from 'next/image';
 import { useState } from 'react';
 
-const FALLBACK_IMAGES: Record<string, string> = {
-  vpn: '/images/categories/vpn-reviews.svg',
-  privacy: '/images/categories/privacy-tools.svg',
-  security: '/images/categories/security-guides.svg',
-  password: '/images/categories/password-managers.svg',
-  default: '/images/categories/default.svg',
-};
+const FALLBACK_IMAGE = 'https://placehold.co/600x400?text=Image';
 
-interface SafeImageProps extends Omit<ImageProps, 'onError'> {
-  category?: string;
+interface SafeImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   fallbackSrc?: string;
+  category?: string;
 }
 
-export default function SafeImage({ category, fallbackSrc, src, alt, ...props }: SafeImageProps) {
-  const [imgSrc, setImgSrc] = useState(src);
+export default function SafeImage({ fallbackSrc, src, alt, category, ...props }: SafeImageProps) {
+  const [imgSrc, setImgSrc] = useState(src || FALLBACK_IMAGE);
   const [hasError, setHasError] = useState(false);
 
   const handleError = () => {
     if (!hasError) {
-      const fallback = fallbackSrc
-        || FALLBACK_IMAGES[category || '']
-        || FALLBACK_IMAGES.default;
-      setImgSrc(fallback);
+      setImgSrc(fallbackSrc || FALLBACK_IMAGE);
       setHasError(true);
     }
   };
 
   return (
-    <Image
+    <img
       {...props}
-      src={imgSrc}
-      alt={alt}
+      src={imgSrc as string}
+      alt={alt || "Image"}
       onError={handleError}
     />
   );
