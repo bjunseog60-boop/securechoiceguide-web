@@ -51,7 +51,7 @@ def generate_imagen_image(gemini_client, prompt: str, slug: str, suffix: str, as
             return f"/images/guides/{filename}"
     except Exception as e:
         print(f"❌ Error generating image: {e}")
-    return "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop"
+    return "https://placehold.co/600x400?text=Image"
 
 def generate_guide_json(client, existing_slugs: list[str]) -> dict:
     prompt = f"""You are an elite cybersecurity and insurance content strategist for SecureChoiceGuide. Your goal is to drive organic traffic and maximize affiliate conversions.
