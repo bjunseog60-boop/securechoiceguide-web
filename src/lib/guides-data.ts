@@ -21,295 +21,28 @@ export interface AffiliateProduct {
 }
 
 export const categories = [
-  { slug: 'all', name: 'All', icon: '' },
-  { slug: 'vpn-reviews', name: 'VPN Reviews', icon: '' },
-  { slug: 'antivirus', name: 'Antivirus & Malware', icon: '' },
-  { slug: 'password-managers', name: 'Password Managers', icon: '' },
-  { slug: 'privacy-tools', name: 'Privacy Tools', icon: '' },
-  { slug: 'secure-messaging', name: 'Secure Messaging', icon: '' },
-  { slug: 'comparisons', name: 'Head-to-Head Comparisons', icon: '' },
-  { slug: 'guides', name: 'Security Guides', icon: '' },
+  { slug: 'all', name: 'All Guides', icon: '✨' },
+  { slug: 'security', name: 'Cybersecurity', icon: '🛡️' },
+  { slug: 'insurance', name: 'Insurance', icon: '📝' },
+  { slug: 'privacy', name: 'Privacy', icon: '🔒' },
+  { slug: 'software', name: 'Software', icon: '💻' },
 ];
 
-export const guides: StyleGuide[] = [
-
-  {
-    slug: 'digital-footprint-clean-up-guide-online-privacy',
-    title: 'Digital Footprint Clean-Up: A Step-by-Step Guide to Online Privacy',
-    category: 'guides',
-    description: 'Minimize your digital footprint and boost online privacy with our expert guide. Learn practical cybersecurity tips, compare VPNs and data removal services.',
-    readTime: '12 min',
-    date: '2026-02-21',
+export const guides: StyleGuide[] = [  {
+    slug: 'best-identity-theft-protection-services-2026',
+    title: 'The 4 Best Identity Theft Protection Services of 2026',
+    category: 'security',
+    description: 'Worried about data breaches? We tested and ranked the top 4 identity theft protection services of 2026 to keep your personal information safe.',
+    readTime: '14 min',
+    date: '2026-02-23',
     tag: 'Guide',
-    emoji: '👣',
-    image: '/images/guides/digital-footprint-clean-up-guide-online-privacy.webp',
-    affiliateProducts: [
-      { name: 'Optery', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Optery&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/optery.svg' },
-      { name: 'DeleteMe', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=DeleteMe&tag=securecg-20', image: '/images/tools/deleteme.svg' },
-      { name: 'Firefox browser', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Firefox+browser&tag=securecg-20', image: '/images/tools/firefox-browser.svg' },
-      { name: 'Brave browser', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Brave+browser&tag=securecg-20', image: '/images/tools/brave-browser.svg' },
-      { name: 'DuckDuckGo browser', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=DuckDuckGo+browser&tag=securecg-20', image: '/images/tools/duckduckgo-browser.svg' },
-    ],
-  },
-
-  {
-    slug: 'mastering-cybersecurity-essential-tips-protecting-digital-life',
-    title: 'Mastering Cybersecurity: Essential Tips for Protecting Your Digital Life',
-    category: 'guides',
-    description: 'Unlock expert cybersecurity tips to fortify your online presence. This guide covers password managers, MFA, VPNs, and essential online privacy tools.',
-    readTime: '12 min',
-    date: '2026-02-21',
-    tag: 'Editor Pick',
-    emoji: '🔒',
-    image: '/images/guides/mastering-cybersecurity-essential-tips-protecting-digital-life.webp',
-    affiliateProducts: [
-      { name: 'Multi-factor Authentication', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Multi-factor+Authentication&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/multi-factor-authentication.svg' },
-      { name: 'Bitwarden', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Bitwarden&tag=securecg-20', image: '/images/tools/bitwarden.svg' },
-      { name: '1Password', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=1Password&tag=securecg-20', image: '/images/tools/1password.svg' },
-      { name: 'ProtonVPN', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=ProtonVPN&tag=securecg-20', image: '/images/tools/protonvpn.svg' },
-      { name: 'NordVPN', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=NordVPN&tag=securecg-20', image: '/images/tools/nordvpn.svg' },
-    ],
-  },
-
-  {
-    slug: 'lastpass-vs-bitwarden-choosing-the-right-password-manager',
-    title: 'LastPass vs. Bitwarden: Choosing the Right Password Manager',
-    category: 'password-managers',
-    description: 'An honest, hands-on comparison of LastPass and Bitwarden to help you choose the best password manager for your cybersecurity needs.',
-    readTime: '12 min',
-    date: '2026-02-21',
-    tag: 'Editor Pick',
-    emoji: '🔐',
-    image: '/images/guides/ultimate-secure-messaging-apps-protect-your-conversations.webp',
-    affiliateProducts: [
-      { name: 'LastPass', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=LastPass&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/lastpass.svg' },
-      { name: 'Bitwarden', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Bitwarden&tag=securecg-20', image: '/images/tools/bitwarden.svg' },
-      { name: 'KeePass', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=KeePass&tag=securecg-20', image: '/images/tools/keepass.svg' },
-      { name: '1Password', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=1Password&tag=securecg-20', image: '/images/tools/1password.svg' },
-    ],
-  },
-
-  {
-    slug: 'bitdefender-vs-norton-360-antivirus-face-off',
-    title: 'Antivirus Face-Off: Bitdefender vs. Norton 360 for Max Protection',
-    category: 'antivirus',
-    description: 'Unbiased antivirus comparison: Bitdefender vs. Norton 360. We dive deep into malware protection, privacy, performance, and pricing to help you choose the best security.',
-    readTime: '10 min',
-    date: '2026-02-21',
-    tag: 'Editor Pick',
     emoji: '🛡️',
-    image: '/images/guides/bitdefender-vs-norton-360-antivirus-face-off.png',
+    image: '/images/guides/best-identity-theft-protection-services-2026-hero.jpg',
     affiliateProducts: [
-      { name: 'Bitdefender Total Security', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Bitdefender+Total+Security&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/bitdefender-total-security.svg' },
-      { name: 'Norton 360 Deluxe', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Norton+360+Deluxe&tag=securecg-20', image: '/images/tools/norton-360-deluxe.svg' },
-      { name: 'ESET Internet Security', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=ESET+Internet+Security&tag=securecg-20', image: '/images/tools/eset-internet-security.svg' },
-      { name: 'Kaspersky Total Security', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Kaspersky+Total+Security&tag=securecg-20', image: '/images/tools/kaspersky-total-security.svg' },
-    ],
-  },
-
-  {
-    slug: 'nordvpn-vs-expressvpn-ultimate-battle-online-security',
-    title: 'NordVPN vs. ExpressVPN: The Ultimate Battle for Online Security',
-    category: 'vpn-reviews',
-    description: 'A deep-dive VPN comparison: NordVPN vs. ExpressVPN. Our hands-on testing reveals which VPN truly delivers superior online security and privacy in 2026.',
-    readTime: '6 min',
-    date: '2026-02-21',
-    tag: 'Editor Pick',
-    emoji: '🛡️',
-    image: '/images/guides/nordvpn-vs-expressvpn-ultimate-battle-online-security.png',
-    affiliateProducts: [
-      { name: 'NordVPN', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=NordVPN&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/nordvpn.svg' },
-      { name: 'ExpressVPN', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=ExpressVPN&tag=securecg-20', image: '/images/tools/expressvpn.svg' },
-    ],
-  },
-
-  {
-    slug: 'ultimate-secure-messaging-apps-protect-your-conversations',
-    title: 'Ultimate Secure Messaging Apps: Protect Your Conversations',
-    category: 'secure-messaging',
-    description: 'Discover the top secure messaging apps – Signal, Threema, and Session – for truly private conversations. Learn about their encryption, privacy, and real-world security.',
-    readTime: '8 min',
-    date: '2026-02-21',
-    tag: 'Editor Pick',
-    emoji: '🔒',
-    image: '/images/guides/ultimate-secure-messaging-apps-protect-your-conversations.webp',
-    affiliateProducts: [
-      { name: 'Signal', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Signal&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/signal.svg' },
-      { name: 'Threema', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Threema&tag=securecg-20', image: '/images/tools/threema.svg' },
-      { name: 'Session', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Session&tag=securecg-20', image: '/images/tools/session.svg' },
-      { name: 'Proton Mail', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Proton+Mail&tag=securecg-20', image: '/images/tools/proton-mail.svg' },
-      { name: 'Tutanota', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Tutanota&tag=securecg-20', image: '/images/tools/tutanota.svg' },
-    ],
-  },
-
-  {
-    slug: 'secure-browsing-explained-how-to-choose-a-privacy-focused-browser',
-    title: 'Secure Browsing Explained: How to Choose a Privacy-Focused Browser',
-    category: 'guides',
-    description: 'Cut through the noise. Learn how to choose a privacy-focused browser to truly shield your online activities from tracking. Real advice, no-BS.',
-    readTime: '11 min',
-    date: '2026-02-21',
-    tag: 'Editor Pick',
-    emoji: '🕵️',
-    image: '/images/guides/secure-browsing-explained-how-to-choose-a-privacy-focused-browser.png',
-    affiliateProducts: [
-      { name: 'Brave Browser', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Brave+Browser&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/brave-browser.svg' },
-      { name: 'Mozilla Firefox', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Mozilla+Firefox&tag=securecg-20', image: '/images/tools/mozilla-firefox.svg' },
-      { name: 'DuckDuckGo Privacy Browser', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=DuckDuckGo+Privacy+Browser&tag=securecg-20', image: '/images/tools/duckduckgo-privacy-browser.svg' },
-      { name: 'uBlock Origin', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=uBlock+Origin&tag=securecg-20', image: '/images/tools/ublock-origin.svg' },
-      { name: 'Privacy Badger', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Privacy+Badger&tag=securecg-20', image: '/images/tools/privacy-badger.svg' },
-    ],
-  },
-
-  {
-    slug: 'boost-your-anonymity-top-online-privacy-tools-you-need-now',
-    title: 'Boost Your Anonymity: Top Online Privacy Tools You Need Now',
-    category: 'privacy-tools',
-    description: 'Reclaim your online anonymity and protect personal data with these expert-tested online privacy tools and cybersecurity tips.',
-    readTime: '12 min',
-    date: '2026-02-21',
-    tag: 'Editor Pick',
-    emoji: '🛡️',
-    image: '/images/guides/ultimate-secure-messaging-apps-protect-your-conversations.webp',
-    affiliateProducts: [
-      { name: 'Tor Browser', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Tor+Browser&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/tor-browser.svg' },
-      { name: 'Brave Browser', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Brave+Browser&tag=securecg-20', image: '/images/tools/brave-browser.svg' },
-      { name: 'DuckDuckGo', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=DuckDuckGo&tag=securecg-20', image: '/images/tools/duckduckgo.svg' },
-      { name: 'Signal', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Signal&tag=securecg-20', image: '/images/tools/signal.svg' },
-      { name: 'Bitwarden', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Bitwarden&tag=securecg-20', image: '/images/tools/bitwarden.svg' },
-    ],
-  },
-
-  {
-    slug: 'choosing-password-manager-free-vs-paid',
-    title: 'Choosing a Password Manager: Free vs. Paid Options Explored',
-    category: 'password-managers',
-    description: 'Navigate the world of password managers. We break down free vs. paid options, reviewing Bitwarden, LastPass, and KeePass for security, features, and value.',
-    readTime: '12 min',
-    date: '2026-02-21',
-    tag: 'Guide',
-    emoji: '🔑',
-    image: '/images/guides/choosing-password-manager-free-vs-paid.png',
-    affiliateProducts: [
-      { name: 'Bitwarden', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Bitwarden&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/bitwarden.svg' },
-      { name: 'LastPass', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=LastPass&tag=securecg-20', image: '/images/tools/lastpass.svg' },
-      { name: 'KeePass', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=KeePass&tag=securecg-20', image: '/images/tools/keepass.svg' },
-      { name: 'YubiKey', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=YubiKey&tag=securecg-20', image: '/images/tools/yubikey.svg' },
-      { name: 'NordPass', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=NordPass&tag=securecg-20', image: '/images/tools/nordpass.svg' },
-    ],
-  },
-
-  {
-    slug: 'best-password-managers-2026',
-    title: 'Best Password Managers 2026: Secure Your Digital Life Easily',
-    category: 'password-managers',
-    description: 'Unlock top-tier password security for 2026. Our hands-on review dissects the best password managers, evaluating features, privacy, and ease of use.',
-    readTime: '10 min',
-    date: '2026-02-21',
-    tag: 'Editor Pick',
-    emoji: '🔑',
-    image: '/images/guides/best-password-managers-2026.webp',
-    affiliateProducts: [
-      { name: '1Password', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=1Password&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/1password.svg' },
-      { name: 'LastPass', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=LastPass&tag=securecg-20', image: '/images/tools/lastpass.svg' },
-      { name: 'Bitwarden', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Bitwarden&tag=securecg-20', image: '/images/tools/bitwarden.svg' },
-      { name: 'Dashlane', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Dashlane&tag=securecg-20', image: '/images/tools/dashlane.svg' },
-      { name: 'YubiKey', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=YubiKey&tag=securecg-20', image: '/images/tools/yubikey.svg' },
-    ],
-  },
-
-  {
-    slug: 'beyond-antivirus-zero-day-malware',
-    title: 'Beyond Antivirus: Essential Steps to Protect Against Zero-Day Malware',
-    category: 'antivirus',
-    description: 'Go beyond basic antivirus. Learn advanced strategies and essential tools to defend your devices from sophisticated zero-day malware attacks.',
-    readTime: '10 min',
-    date: '2026-02-21',
-    tag: 'Editor Pick',
-    emoji: '🛡️',
-    image: '/images/guides/beyond-antivirus-zero-day-malware.png',
-    affiliateProducts: [
-      { name: 'ESET', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=ESET&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/eset.svg' },
-      { name: 'Malwarebytes', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Malwarebytes&tag=securecg-20', image: '/images/tools/malwarebytes.svg' },
-      { name: 'CrowdStrike', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=CrowdStrike&tag=securecg-20', image: '/images/tools/crowdstrike.svg' },
-      { name: 'password manager', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=password+manager&tag=securecg-20', image: '/images/tools/password-manager.svg' },
-      { name: 'VPNs', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=VPNs&tag=securecg-20', image: '/images/tools/vpns.svg' },
-    ],
-  },
-
-  {
-    slug: 'antivirus-showdown-ultimate-pc-security',
-    title: 'Antivirus Showdown: The Ultimate Comparison for Total PC Security',
-    category: 'antivirus',
-    description: 'Dive into a head-to-head antivirus comparison of Bitdefender, Norton 360, and Kaspersky. Get honest insights on malware protection, performance, and privacy.',
-    readTime: '8 min',
-    date: '2026-02-21',
-    tag: 'Editor Pick',
-    emoji: '🛡️',
-    image: '/images/guides/antivirus-showdown-ultimate-pc-security.png',
-    affiliateProducts: [
-      { name: 'Bitdefender Antivirus Plus', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Bitdefender+Antivirus+Plus&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/bitdefender-antivirus-plus.svg' },
-      { name: 'Bitdefender Internet Security', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Bitdefender+Internet+Security&tag=securecg-20', image: '/images/tools/bitdefender-internet-security.svg' },
-      { name: 'Bitdefender Total Security', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Bitdefender+Total+Security&tag=securecg-20', image: '/images/tools/bitdefender-total-security.svg' },
-      { name: 'Norton 360 Standard', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Norton+360+Standard&tag=securecg-20', image: '/images/tools/norton-360-standard.svg' },
-      { name: 'Norton 360 Deluxe', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Norton+360+Deluxe&tag=securecg-20', image: '/images/tools/norton-360-deluxe.svg' },
-    ],
-  },
-
-  {
-    slug: 'stream-without-buffering-best-vpns-for-flawless-streaming',
-    title: 'Stream Without Buffering: The Best VPNs for Flawless Streaming',
-    category: 'vpn-reviews',
-    description: 'Unlock seamless HD streaming anywhere. This VPN review cuts through the noise, revealing the top services for bypassing geo-blocks and ending buffering for good.',
-    readTime: '12 min',
-    date: '2026-02-21',
-    tag: 'Editor Pick',
-    emoji: '📺',
-    image: '/images/guides/ultimate-secure-messaging-apps-protect-your-conversations.webp',
-    affiliateProducts: [
-      { name: 'ExpressVPN', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=ExpressVPN&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/expressvpn.svg' },
-      { name: 'NordVPN', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=NordVPN&tag=securecg-20', image: '/images/tools/nordvpn.svg' },
-      { name: 'CyberGhost', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=CyberGhost&tag=securecg-20', image: '/images/tools/cyberghost.svg' },
-      { name: 'Surfshark', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Surfshark+VPN&tag=securecg-20', image: '/images/tools/surfshark.svg' },
-      { name: 'Private Internet Access', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Private+Internet+Access+VPN&tag=securecg-20', image: '/images/tools/private-internet-access.svg' },
-    ],
-  },
-
-  {
-    slug: 'is-a-free-vpn-worth-it-deep-dive',
-    title: 'Is a Free VPN Worth It? A Deep Dive into the Best Free Options',
-    category: 'vpn-reviews',
-    description: 'Unlock the truth about free VPNs. Our hands-on review identifies the safest, most reliable choices for casual online privacy without hidden costs.',
-    readTime: '12 min',
-    date: '2026-02-21',
-    tag: 'Editor Pick',
-    emoji: '🛡️',
-    image: '/images/guides/is-a-free-vpn-worth-it-deep-dive.png',
-    affiliateProducts: [
-      { name: 'Proton VPN Free', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Proton+VPN+Free&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/proton-vpn-free.svg' },
-      { name: 'Windscribe Free', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Windscribe+Free&tag=securecg-20', image: '/images/tools/windscribe-free.svg' },
-      { name: 'TunnelBear Free', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=TunnelBear+Free&tag=securecg-20', image: '/images/tools/tunnelbear-free.svg' },
-      { name: 'Proton VPN (Paid)', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Proton+VPN+%28Paid%29&tag=securecg-20', image: '/images/tools/proton-vpn-paid.svg' },
-      { name: 'Windscribe (Paid)', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Windscribe+%28Paid%29&tag=securecg-20', image: '/images/tools/windscribe-paid.svg' },
-    ],
-  },
-
-  {
-    slug: 'best-vpns-2026-ultimate-online-privacy',
-    title: 'Best VPNs for 2026: Top Choices for Ultimate Online Privacy',
-    category: 'vpn-reviews',
-    description: 'Discover the best VPNs for 2026 with our hands-on review. We analyze NordVPN, ExpressVPN, ProtonVPN, and Surfshark for future-proof security and performance.',
-    readTime: '12 min',
-    date: '2026-02-21',
-    tag: 'Editor Pick',
-    emoji: '🔒',
-    image: '/images/guides/best-vpns-2026-ultimate-online-privacy.webp',
-    affiliateProducts: [
-      { name: 'NordVPN', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=NordVPN&tag=securecg-20', tag: 'Editor Pick', image: '/images/tools/nordvpn.svg' },
-      { name: 'ExpressVPN', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=ExpressVPN&tag=securecg-20', image: '/images/tools/expressvpn.svg' },
-      { name: 'Surfshark', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Surfshark&tag=securecg-20', image: '/images/tools/surfshark.svg' },
-      { name: 'ProtonVPN', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=ProtonVPN&tag=securecg-20', image: '/images/tools/protonvpn.svg' },
-      { name: 'ProtonMail', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=ProtonMail&tag=securecg-20', image: '/images/tools/protonmail.svg' },
+      { name: 'Aura Identity Guard', brand: 'Aura', price: '$12/mo', url: 'https://amzn.to/example', tag: 'Best Overall', image: '/images/guides/best-identity-theft-protection-services-2026-prod0.jpg' },
+      { name: 'LifeLock with Norton 360', brand: 'LifeLock', price: '$11/mo', url: 'https://amzn.to/example', tag: 'Most Comprehensive Suite', image: '/images/guides/best-identity-theft-protection-services-2026-prod1.jpg' },
+      { name: 'IdentityForce UltraSecure+Credit', brand: 'IdentityForce', price: '$24/mo', url: 'https://amzn.to/example', tag: 'Best for Restoration', image: '/images/guides/best-identity-theft-protection-services-2026-prod2.jpg' },
+      { name: 'IdentityIQ Secure Max', brand: 'IdentityIQ', price: '$30/mo', url: 'https://amzn.to/example', tag: 'Best for Credit Monitoring', image: '/images/guides/best-identity-theft-protection-services-2026-prod3.jpg' },
     ],
   },
 ];
@@ -323,7 +56,6 @@ export function getGuidesByCategory(category: string) {
   return guides.filter(g => g.category === category);
 }
 
-/** Extract all products from all guides, deduplicated by name+brand */
 export function getAllProducts(): (AffiliateProduct & { fromGuide: string; fromGuideSlug: string })[] {
   const seen = new Set<string>();
   const products: (AffiliateProduct & { fromGuide: string; fromGuideSlug: string })[] = [];
@@ -339,7 +71,6 @@ export function getAllProducts(): (AffiliateProduct & { fromGuide: string; fromG
   return products;
 }
 
-/** Get featured products based on tags like Editor Pick, Best Overall, etc. */
 export function getFeaturedProducts(count: number = 8): (AffiliateProduct & { fromGuide: string; fromGuideSlug: string })[] {
   const all = getAllProducts();
   const priorityTags = ['Editor Pick', 'Best Overall', 'Best Value', 'Best Seller', 'Trend Pick', 'Must Have', '#1 Must Have', 'Top Pick'];
@@ -348,7 +79,6 @@ export function getFeaturedProducts(count: number = 8): (AffiliateProduct & { fr
   return [...featured, ...rest].slice(0, count);
 }
 
-/** Get products filtered by guide category */
 export function getProductsByCategory(category: string, count: number = 8): (AffiliateProduct & { fromGuide: string; fromGuideSlug: string })[] {
   const seen = new Set<string>();
   const products: (AffiliateProduct & { fromGuide: string; fromGuideSlug: string })[] = [];
@@ -365,12 +95,10 @@ export function getProductsByCategory(category: string, count: number = 8): (Aff
   return products.slice(0, count);
 }
 
-/** Category mapping for shop tabs */
 export const shopCategories = [
   { slug: 'all', name: 'All' },
-  { slug: 'vpn-reviews', name: 'VPN Reviews' },
-  { slug: 'antivirus', name: 'Antivirus' },
-  { slug: 'password-managers', name: 'Password Managers' },
-  { slug: 'privacy-tools', name: 'Privacy Tools' },
-  { slug: 'comparisons', name: 'Comparisons' },
+  { slug: 'security', name: 'Security' },
+  { slug: 'insurance', name: 'Insurance' },
+  { slug: 'privacy', name: 'Privacy' },
+  { slug: 'software', name: 'Software' },
 ];
