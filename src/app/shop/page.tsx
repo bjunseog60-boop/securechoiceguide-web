@@ -8,9 +8,6 @@ export const metadata: Metadata = {
   keywords: ['best vpn deals', 'security software', 'password manager', 'antivirus 2026', 'privacy tools', 'vpn discount'],
 };
 
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
-
 export default function ShopPage() {
   const allProducts = getAllProducts();
 
