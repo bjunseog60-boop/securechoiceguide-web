@@ -180,11 +180,11 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
         {/* Table of Contents */}
         {guidesContent[guide.slug] && (
           <div className="border border-gray-700 rounded-xl p-5 mb-8 bg-gray-800">
-            <h3 className="font-body font-bold text-sm text-gray-700 mb-3">In This Guide</h3>
+            <h3 className="font-body font-bold text-sm text-gray-200 mb-3">In This Guide</h3>
             <ul className="space-y-2">
               {guidesContent[guide.slug].map((section, idx) => (
-                <li key={idx} className="flex items-center gap-2 text-sm text-gray-500">
-                  <span className="w-5 h-5 rounded-full bg-gray-100 text-gray-500 text-xs flex items-center justify-center font-medium">{idx + 1}</span>
+                <li key={idx} className="flex items-center gap-2 text-sm text-gray-400">
+                  <span className="w-5 h-5 rounded-full bg-emerald-900 text-emerald-400 text-xs flex items-center justify-center font-medium">{idx + 1}</span>
                   {section.heading}
                 </li>
               ))}
@@ -262,7 +262,7 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
                     <div className="w-16 h-16 rounded-xl bg-gray-100" />
                   )}
                   <div className="flex-1">
-                    <p className="font-semibold text-sm text-gray-800 group-hover:text-emerald-400 transition-colors">{r.title}</p>
+                    <p className="font-semibold text-sm text-gray-200 group-hover:text-emerald-400 transition-colors">{r.title}</p>
                     <p className="text-xs text-gray-400">{r.readTime} · {r.tag}</p>
                   </div>
                 </Link>
@@ -284,7 +284,7 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
                     <div className="w-16 h-16 rounded-xl bg-gray-100" />
                   )}
                   <div className="flex-1">
-                    <p className="font-semibold text-sm text-gray-800 group-hover:text-emerald-400 transition-colors">{r.title}</p>
+                    <p className="font-semibold text-sm text-gray-200 group-hover:text-emerald-400 transition-colors">{r.title}</p>
                     <p className="text-xs text-gray-400">{r.readTime} · {r.tag}</p>
                   </div>
                 </Link>
