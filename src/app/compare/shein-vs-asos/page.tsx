@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import NewsletterCTA from '@/components/NewsletterCTA';
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { SITE_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ const data = [
 ];
 
 export default function BitdefenderVsNorton() {
+  notFound();
   const faqJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',

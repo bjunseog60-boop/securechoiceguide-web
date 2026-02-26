@@ -17,8 +17,8 @@ interface BlogPost {
 }
 
 const blogPosts: Record<string, BlogPost> = {
-  'quiet-luxury-guide': {
-    slug: 'quiet-luxury-guide',
+  'vpn-privacy-guide': {
+    slug: 'vpn-privacy-guide',
     title: 'Why You Need a VPN in 2026: The Complete Privacy Case',
     excerpt: 'ISPs selling your data, public Wi-Fi risks, and government surveillance are all real threats. Here\'s why a VPN is no longer optional.',
     date: '2026-02-18',
@@ -52,8 +52,8 @@ const blogPosts: Record<string, BlogPost> = {
       { title: 'Online Privacy Guide', slug: 'complete-online-privacy-guide-2026' },
     ],
   },
-  'spring-color-trends': {
-    slug: 'spring-color-trends',
+  'vpn-speed-test': {
+    slug: 'vpn-speed-test',
     title: 'NordVPN vs ExpressVPN vs Surfshark: Speed Test Results 2026',
     excerpt: 'We tested the top 3 VPNs across 15 server locations for speed, latency, and reliability.',
     date: '2026-02-17',
@@ -86,8 +86,8 @@ const blogPosts: Record<string, BlogPost> = {
       { title: 'NordVPN vs ExpressVPN', slug: 'nordvpn-vs-expressvpn-ultimate-battle-online-security' },
     ],
   },
-  'capsule-wardrobe-mistakes': {
-    slug: 'capsule-wardrobe-mistakes',
+  'password-security-guide': {
+    slug: 'password-security-guide',
     title: '7 Password Mistakes That Put Your Accounts at Risk',
     excerpt: 'Reusing passwords, skipping 2FA, and using weak passphrases are just the start.',
     date: '2026-02-16',

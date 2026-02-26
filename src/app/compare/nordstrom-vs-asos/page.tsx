@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import NewsletterCTA from '@/components/NewsletterCTA';
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 
 export const metadata: Metadata = {
   title: 'Surfshark vs NordVPN 2026: Which VPN Is Worth Your Money?',
@@ -21,6 +22,7 @@ const data = [
 ];
 
 export default function SurfsharkVsNordVPN() {
+  notFound();
   return (
     <article className="pt-8 max-w-3xl mx-auto">
       <nav className="flex items-center gap-2 text-sm text-gray-400 mb-6">
