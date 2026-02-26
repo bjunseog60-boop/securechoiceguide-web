@@ -1892,7 +1892,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Editor Pick',
     emoji: '🛡️',
-    image: '/images/categories/cat-best-vpns.webp',
+    image: '/images/guides/nordvpn-review-2026-hero.webp',
     affiliateProducts: [
       { name: 'NordVPN 2-Year Plan', brand: 'NordVPN', price: '$3.79/mo', url: 'https://nordvpn.com', tag: 'Editor Pick' },
     ],
@@ -1906,7 +1906,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Best Value',
     emoji: '🦈',
-    image: '/images/categories/cat-best-vpns.webp',
+    image: '/images/guides/surfshark-review-2026-hero.webp',
     affiliateProducts: [
       { name: 'Surfshark 2-Year Plan', brand: 'Surfshark', price: '$2.19/mo', url: 'https://surfshark.com', tag: 'Best Value' },
     ],
@@ -1920,7 +1920,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Top Rated',
     emoji: '⚡',
-    image: '/images/categories/cat-nordvpn-express.webp',
+    image: '/images/guides/expressvpn-review-2026-hero.webp',
     affiliateProducts: [
       { name: 'ExpressVPN 12-Month Plan', brand: 'ExpressVPN', price: '$6.67/mo', url: 'https://expressvpn.com', tag: 'Top Rated' },
     ],
@@ -1934,7 +1934,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Best for Beginners',
     emoji: '👻',
-    image: '/images/categories/cat-best-vpns.webp',
+    image: '/images/guides/cyberghost-review-2026-hero.webp',
     affiliateProducts: [
       { name: 'CyberGhost 2-Year Plan', brand: 'CyberGhost', price: '$2.11/mo', url: 'https://cyberghostvpn.com', tag: 'Best for Beginners' },
     ],
@@ -1948,7 +1948,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Most Private',
     emoji: '🔬',
-    image: '/images/categories/cat-privacy-guide.webp',
+    image: '/images/guides/protonvpn-review-2026-hero.webp',
     affiliateProducts: [
       { name: 'ProtonVPN Plus', brand: 'ProtonVPN', price: '$9.99/mo', url: 'https://protonvpn.com', tag: 'Most Private' },
     ],
@@ -1962,7 +1962,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Court Proven',
     emoji: '⚖️',
-    image: '/images/categories/cat-best-vpns.webp',
+    image: '/images/guides/pia-review-2026-hero.webp',
     affiliateProducts: [
       { name: 'PIA 2-Year Plan', brand: 'Private Internet Access', price: '$2.11/mo', url: 'https://privateinternetaccess.com', tag: 'Court Proven' },
     ],
@@ -1976,7 +1976,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Best Free Option',
     emoji: '🌬️',
-    image: '/images/categories/cat-best-vpns.webp',
+    image: '/images/guides/windscribe-review-2026-hero.webp',
     affiliateProducts: [
       { name: 'Windscribe Pro Annual', brand: 'Windscribe', price: '$4.08/mo', url: 'https://windscribe.com', tag: 'Best Free Option' },
     ],
@@ -1990,7 +1990,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Most Anonymous',
     emoji: '🎭',
-    image: '/images/categories/cat-privacy-guide.webp',
+    image: '/images/guides/mullvad-review-2026-hero.webp',
     affiliateProducts: [
       { name: 'Mullvad VPN', brand: 'Mullvad', price: '€5.00/mo', url: 'https://mullvad.net', tag: 'Most Anonymous' },
     ],
@@ -2006,7 +2006,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Comparison',
     emoji: '⚔️',
-    image: '/images/categories/cat-nordvpn-express.webp',
+    image: '/images/guides/nordvpn-vs-surfshark-2026-hero.webp',
     affiliateProducts: [
       { name: 'NordVPN 2-Year', brand: 'NordVPN', price: '$3.79/mo', url: 'https://nordvpn.com', tag: 'Editor Pick' },
       { name: 'Surfshark 2-Year', brand: 'Surfshark', price: '$2.19/mo', url: 'https://surfshark.com', tag: 'Best Value' },
@@ -2021,7 +2021,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Comparison',
     emoji: '⚔️',
-    image: '/images/categories/cat-best-vpns.webp',
+    image: '/images/guides/cyberghost-vs-surfshark-2026-hero.webp',
     affiliateProducts: [
       { name: 'CyberGhost 2-Year', brand: 'CyberGhost', price: '$2.11/mo', url: 'https://cyberghostvpn.com', tag: 'Best for Beginners' },
       { name: 'Surfshark 2-Year', brand: 'Surfshark', price: '$2.19/mo', url: 'https://surfshark.com', tag: 'Best Value' },
@@ -2036,7 +2036,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Free',
     emoji: '🆓',
-    image: '/images/categories/cat-best-vpns.webp',
+    image: '/images/guides/best-free-vpn-services-2026-hero.webp',
     affiliateProducts: [
       { name: 'ProtonVPN Free', brand: 'ProtonVPN', price: 'Free', url: 'https://protonvpn.com/free-vpn', tag: 'Editor Pick' },
     ],
@@ -2050,7 +2050,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'iOS',
     emoji: '📱',
-    image: '/images/categories/cat-best-vpns.webp',
+    image: '/images/guides/best-vpn-for-iphone-2026-hero.webp',
     affiliateProducts: [
       { name: 'ExpressVPN (Best for iOS)', brand: 'ExpressVPN', price: '$6.67/mo', url: 'https://expressvpn.com', tag: 'Editor Pick' },
     ],
@@ -2064,7 +2064,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Android',
     emoji: '🤖',
-    image: '/images/categories/cat-best-vpns.webp',
+    image: '/images/guides/best-vpn-for-android-2026-hero.webp',
     affiliateProducts: [
       { name: 'NordVPN (Best for Android)', brand: 'NordVPN', price: '$3.79/mo', url: 'https://nordvpn.com', tag: 'Editor Pick' },
     ],
@@ -2078,7 +2078,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Windows',
     emoji: '🖥️',
-    image: '/images/categories/cat-best-vpns.webp',
+    image: '/images/guides/best-vpn-for-windows-2026-hero.webp',
     affiliateProducts: [
       { name: 'NordVPN Windows', brand: 'NordVPN', price: '$3.79/mo', url: 'https://nordvpn.com', tag: 'Editor Pick' },
     ],
@@ -2092,7 +2092,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Budget Pick',
     emoji: '💰',
-    image: '/images/categories/cat-best-vpns.webp',
+    image: '/images/guides/best-cheap-vpn-2026-hero.webp',
     affiliateProducts: [
       { name: 'Surfshark 2-Year', brand: 'Surfshark', price: '$2.19/mo', url: 'https://surfshark.com', tag: 'Cheapest Premium' },
       { name: 'CyberGhost 2-Year', brand: 'CyberGhost', price: '$2.11/mo', url: 'https://cyberghostvpn.com', tag: 'Budget Pick' },
@@ -2109,7 +2109,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Comparison',
     emoji: '🦠',
-    image: '/images/categories/hero-security.webp',
+    image: '/images/guides/norton-vs-bitdefender-2026-hero.webp',
     affiliateProducts: [
       { name: 'Bitdefender Total Security', brand: 'Bitdefender', price: '$29.99/yr', url: 'https://bitdefender.com', tag: 'Editor Pick' },
       { name: 'Norton 360 Deluxe', brand: 'Norton', price: '$49.99/yr', url: 'https://norton.com', tag: 'Best for Identity Protection' },
@@ -2124,7 +2124,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Comparison',
     emoji: '🦠',
-    image: '/images/categories/hero-security.webp',
+    image: '/images/guides/mcafee-vs-norton-2026-hero.webp',
     affiliateProducts: [
       { name: 'Norton 360 Standard', brand: 'Norton', price: '$39.99/yr', url: 'https://norton.com', tag: 'Editor Pick' },
       { name: 'McAfee Total Protection', brand: 'McAfee', price: '$39.99/yr', url: 'https://mcafee.com', tag: 'Best Unlimited Devices' },
@@ -2139,7 +2139,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Editor Pick',
     emoji: '🛡️',
-    image: '/images/categories/hero-security.webp',
+    image: '/images/guides/best-antivirus-2026-hero.webp',
     affiliateProducts: [
       { name: 'Bitdefender Total Security', brand: 'Bitdefender', price: '$29.99/yr', url: 'https://bitdefender.com', tag: 'Editor Pick' },
       { name: 'Malwarebytes Premium', brand: 'Malwarebytes', price: '$39.99/yr', url: 'https://malwarebytes.com', tag: 'Best Complement' },
@@ -2154,7 +2154,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Windows',
     emoji: '🖥️',
-    image: '/images/categories/hero-security.webp',
+    image: '/images/guides/best-antivirus-for-windows-2026-hero.webp',
     affiliateProducts: [
       { name: 'Bitdefender Total Security', brand: 'Bitdefender', price: '$29.99/yr', url: 'https://bitdefender.com', tag: 'Editor Pick' },
     ],
@@ -2170,7 +2170,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Comparison',
     emoji: '🔑',
-    image: '/images/categories/cat-password-manager.webp',
+    image: '/images/guides/1password-vs-bitwarden-2026-hero.webp',
     affiliateProducts: [
       { name: '1Password Individual', brand: '1Password', price: '$2.99/mo', url: 'https://1password.com', tag: 'Editor Pick' },
       { name: 'Bitwarden Premium', brand: 'Bitwarden', price: '$10/yr', url: 'https://bitwarden.com', tag: 'Best Free' },
@@ -2185,7 +2185,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Security Alert',
     emoji: '⚠️',
-    image: '/images/categories/cat-password-manager.webp',
+    image: '/images/guides/lastpass-vs-1password-2026-hero.webp',
     affiliateProducts: [
       { name: '1Password Individual', brand: '1Password', price: '$2.99/mo', url: 'https://1password.com', tag: 'Safer Choice' },
       { name: 'Bitwarden Free', brand: 'Bitwarden', price: 'Free', url: 'https://bitwarden.com', tag: 'Best Alternative' },
@@ -2200,7 +2200,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Family',
     emoji: '👨‍👩‍👧‍👦',
-    image: '/images/categories/cat-password-manager.webp',
+    image: '/images/guides/best-password-manager-for-families-2026-hero.webp',
     affiliateProducts: [
       { name: '1Password Families (5 users)', brand: '1Password', price: '$4.99/mo', url: 'https://1password.com/families', tag: 'Editor Pick' },
       { name: 'Bitwarden Families (6 users)', brand: 'Bitwarden', price: '$3.33/mo', url: 'https://bitwarden.com', tag: 'Best Value' },
@@ -2217,7 +2217,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'How-To',
     emoji: '📶',
-    image: '/images/categories/hero-security.webp',
+    image: '/images/guides/how-to-protect-wifi-2026-hero.webp',
   },
   {
     slug: 'what-is-phishing-2026',
@@ -2228,7 +2228,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Education',
     emoji: '🎣',
-    image: '/images/categories/hero-security.webp',
+    image: '/images/guides/what-is-phishing-2026-hero.webp',
   },
   {
     slug: 'how-to-check-data-breach-2026',
@@ -2239,7 +2239,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'How-To',
     emoji: '🔍',
-    image: '/images/categories/hero-security.webp',
+    image: '/images/guides/how-to-check-data-breach-2026-hero.webp',
   },
   {
     slug: 'vpn-setup-guide-2026',
@@ -2250,7 +2250,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'How-To',
     emoji: '🔧',
-    image: '/images/categories/cat-best-vpns.webp',
+    image: '/images/guides/vpn-setup-guide-2026-hero.webp',
   },
   {
     slug: '2fa-setup-guide-2026',
@@ -2261,7 +2261,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'How-To',
     emoji: '🔐',
-    image: '/images/categories/hero-security.webp',
+    image: '/images/guides/2fa-setup-guide-2026-hero.webp',
   },
   {
     slug: 'best-security-apps-for-phone-2026',
@@ -2272,7 +2272,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Mobile',
     emoji: '📱',
-    image: '/images/categories/hero-security.webp',
+    image: '/images/guides/best-security-apps-for-phone-2026-hero.webp',
   },
   {
     slug: 'how-to-remove-malware-2026',
@@ -2283,7 +2283,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'How-To',
     emoji: '🦠',
-    image: '/images/categories/hero-security.webp',
+    image: '/images/guides/how-to-remove-malware-2026-hero.webp',
   },
   {
     slug: 'public-wifi-safety-tips-2026',
@@ -2294,7 +2294,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'How-To',
     emoji: '☕',
-    image: '/images/categories/hero-security.webp',
+    image: '/images/guides/public-wifi-safety-tips-2026-hero.webp',
   },
 
   // ===== PHASE 4-1: PRIVACY GUIDES =====
@@ -2307,7 +2307,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Editor Pick',
     emoji: '🌐',
-    image: '/images/categories/cat-privacy-guide.webp',
+    image: '/images/guides/best-private-browsers-2026-hero.webp',
   },
   {
     slug: 'how-to-delete-digital-footprint-2026',
@@ -2318,7 +2318,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'How-To',
     emoji: '👣',
-    image: '/images/categories/cat-privacy-guide.webp',
+    image: '/images/guides/how-to-delete-digital-footprint-2026-hero.webp',
   },
   {
     slug: 'best-encrypted-email-services-2026',
@@ -2329,7 +2329,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Editor Pick',
     emoji: '✉️',
-    image: '/images/categories/cat-privacy-guide.webp',
+    image: '/images/guides/best-encrypted-email-services-2026-hero.webp',
   },
   {
     slug: 'is-incognito-mode-safe-2026',
@@ -2340,7 +2340,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'Fact Check',
     emoji: '🕵️',
-    image: '/images/categories/cat-privacy-guide.webp',
+    image: '/images/guides/is-incognito-mode-safe-2026-hero.webp',
   },
   {
     slug: 'how-to-stop-online-tracking-2026',
@@ -2351,7 +2351,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-26',
     tag: 'How-To',
     emoji: '🚫',
-    image: '/images/categories/cat-privacy-guide.webp',
+    image: '/images/guides/how-to-stop-online-tracking-2026-hero.webp',
   },
 
 ];
