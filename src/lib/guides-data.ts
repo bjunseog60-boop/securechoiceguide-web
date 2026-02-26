@@ -753,7 +753,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Savings",
     emoji: "\ud83d\udcb0",
-    image: '/images/guides/best-high-yield-savings-accounts-2026-hero.jpg',
+    image: '/images/guides/best-high-yield-savings-accounts-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Marcus by Goldman Sachs",
@@ -798,7 +798,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Credit Cards",
     emoji: "\ud83d\udcb3",
-    image: '/images/guides/best-credit-cards-cash-back-2026-hero.jpg',
+    image: '/images/guides/best-credit-cards-cash-back-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Chase Freedom Unlimited",
@@ -888,7 +888,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Investing",
     emoji: "\ud83e\udd16",
-    image: '/images/guides/best-robo-advisors-2026-hero.jpg',
+    image: '/images/guides/best-robo-advisors-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Betterment Digital",
@@ -933,7 +933,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Money Transfer",
     emoji: "\ud83c\udf10",
-    image: '/images/guides/best-money-transfer-services-2026-hero.jpg',
+    image: '/images/guides/best-money-transfer-services-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Wise (formerly TransferWise)",
@@ -1298,7 +1298,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Guide",
     emoji: "☂️",
-    image: '/images/guides/umbrella-insurance-guide-2026-hero.jpg',
+    image: '/images/guides/umbrella-insurance-guide-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Policygenius (Compare Quotes)",
@@ -1372,7 +1372,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Guide",
     emoji: "🚙",
-    image: '/images/guides/what-is-gap-insurance-2026-hero.jpg',
+    image: '/images/guides/what-is-gap-insurance-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Policygenius (Compare Quotes)",
@@ -1520,7 +1520,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Apps",
     emoji: "📊",
-    image: '/images/guides/best-budgeting-apps-2026-hero.jpg',
+    image: '/images/guides/best-budgeting-apps-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Robinhood (Stocks + Crypto)",
@@ -1594,7 +1594,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Apps",
     emoji: "📈",
-    image: '/images/guides/best-investment-apps-beginners-2026-hero.jpg',
+    image: '/images/guides/best-investment-apps-beginners-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Robinhood (Stocks + Crypto)",
@@ -1705,7 +1705,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Banking",
     emoji: "🏦",
-    image: '/images/guides/best-online-banks-2026-hero.jpg',
+    image: '/images/guides/best-online-banks-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Robinhood (Stocks + Crypto)",
@@ -1779,7 +1779,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Loans",
     emoji: "💳",
-    image: '/images/guides/best-personal-loans-2026-hero.jpg',
+    image: '/images/guides/best-personal-loans-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Robinhood (Stocks + Crypto)",
