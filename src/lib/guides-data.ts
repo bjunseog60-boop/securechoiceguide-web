@@ -573,7 +573,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Life Insurance",
     emoji: "\ud83d\udc9b",
-    image: '/images/guides/best-life-insurance-young-adults-2026-hero.jpg',
+    image: '/images/guides/best-life-insurance-young-adults-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Haven Life Term",
@@ -618,7 +618,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Renters Insurance",
     emoji: "\ud83d\udd11",
-    image: '/images/guides/best-renters-insurance-2026-hero.jpg',
+    image: '/images/guides/best-renters-insurance-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Lemonade Renters",
@@ -663,7 +663,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Travel Insurance",
     emoji: "\u2708\ufe0f",
-    image: '/images/guides/best-travel-insurance-2026-hero.jpg',
+    image: '/images/guides/best-travel-insurance-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Travel Guard Preferred",
@@ -708,7 +708,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Life Insurance",
     emoji: "\u2696\ufe0f",
-    image: '/images/guides/term-vs-whole-life-insurance-comparison-hero.jpg',
+    image: '/images/guides/term-vs-whole-life-insurance-comparison-hero.webp',
     affiliateProducts: [
       {
         name: "Haven Life Term",
@@ -1150,7 +1150,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Insurance",
     emoji: "🚗",
-    image: '/images/guides/best-car-insurance-companies-2026-hero.jpg',
+    image: '/images/guides/best-car-insurance-companies-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Policygenius (Compare Quotes)",
@@ -1187,7 +1187,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Insurance",
     emoji: "🏥",
-    image: '/images/guides/best-health-insurance-self-employed-2026-hero.jpg',
+    image: '/images/guides/best-health-insurance-self-employed-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Policygenius (Compare Quotes)",
@@ -1261,7 +1261,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Insurance",
     emoji: "🐾",
-    image: '/images/guides/best-pet-insurance-2026-hero.jpg',
+    image: '/images/guides/best-pet-insurance-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Policygenius (Compare Quotes)",
@@ -1335,7 +1335,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Insurance",
     emoji: "🦷",
-    image: '/images/guides/best-dental-insurance-2026-hero.jpg',
+    image: '/images/guides/best-dental-insurance-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Policygenius (Compare Quotes)",
@@ -1409,7 +1409,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Insurance",
     emoji: "🏦",
-    image: '/images/guides/best-disability-insurance-2026-hero.jpg',
+    image: '/images/guides/best-disability-insurance-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Policygenius (Compare Quotes)",
@@ -1483,7 +1483,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-25',
     tag: "Comparison",
     emoji: "🌊",
-    image: '/images/guides/best-flood-insurance-2026-hero.jpg',
+    image: '/images/guides/best-flood-insurance-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Policygenius (Compare Quotes)",
