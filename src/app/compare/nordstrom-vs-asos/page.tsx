@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: 'Surfshark vs NordVPN 2026: Which VPN Is Worth Your Money?',
   description: 'We tested Surfshark and NordVPN across speed, privacy, pricing, and features. Find out which VPN wins for everyday users in 2026.',
   keywords: ['surfshark vs nordvpn', 'best vpn 2026', 'nordvpn review', 'surfshark review', 'vpn comparison'],
+  robots: { index: false },
 };
 
 const data = [

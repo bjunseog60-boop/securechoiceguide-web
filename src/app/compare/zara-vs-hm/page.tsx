@@ -8,7 +8,8 @@ export const metadata: Metadata = {
   title: '1Password vs LastPass 2026: Which Password Manager Is Safer?',
   description: 'LastPass suffered a major breach. We compared 1Password and LastPass on security architecture, features, price, and trustworthiness for 2026.',
   keywords: ['1password vs lastpass', 'best password manager 2026', '1password review', 'lastpass review', 'password manager comparison'],
-  alternates: { canonical: `${SITE_URL}/compare/zara-vs-hm` },
+  alternates: { canonical: `${SITE_URL}/compare/1password-vs-lastpass` },
+  robots: { index: false },
 };
 
 const data = [

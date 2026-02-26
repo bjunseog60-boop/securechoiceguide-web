@@ -8,7 +8,8 @@ export const metadata: Metadata = {
   title: 'Bitdefender vs Norton 2026: Best Antivirus Compared',
   description: 'We ran real malware tests on Bitdefender and Norton to see which antivirus catches more threats with less system impact. Honest results inside.',
   keywords: ['bitdefender vs norton', 'best antivirus 2026', 'bitdefender review', 'norton antivirus review', 'antivirus comparison'],
-  alternates: { canonical: `${SITE_URL}/compare/shein-vs-asos` },
+  alternates: { canonical: `${SITE_URL}/compare/bitdefender-vs-norton` },
+  robots: { index: false },
 };
 
 const data = [
