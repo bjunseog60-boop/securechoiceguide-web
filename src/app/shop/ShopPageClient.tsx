@@ -50,10 +50,10 @@ export default function ShopPageClient({ products, categories }: ShopPageClientP
             {/* Image / Logo */}
             <div className="w-full md:w-48 h-32 flex-shrink-0 bg-gray-50 rounded-lg border border-gray-100 flex items-center justify-center p-4 relative mt-4 md:mt-0">
               <img
-                src={p.image || 'https://placehold.co/400x300?text=Security+Logo'}
+                src={p.image || '/images/placeholder.svg'}
                 alt={p.name}
                 className="max-w-full max-h-full object-contain"
-                onError={(e) => { e.currentTarget.src = 'https://placehold.co/400x300?text=Image_Fallback'; }}
+                onError={(e) => { e.currentTarget.src = '/images/placeholder.svg'; }}
               />
             </div>
             
