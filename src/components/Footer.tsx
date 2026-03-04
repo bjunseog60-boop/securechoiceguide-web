@@ -25,9 +25,9 @@ export default function Footer() {
           <div>
             <h4 className="font-body font-semibold text-white text-sm mb-3">Popular</h4>
             <div className="space-y-2">
-              <Link href="/guides/best-vpns-2026-ultimate-online-privacy" className="block text-sm text-gray-400 hover:text-emerald-400 transition-colors">Best VPNs 2026</Link>
+              <Link href="/guides/best-vpn-2026-privacy-streaming-reviews" className="block text-sm text-gray-400 hover:text-emerald-400 transition-colors">Best VPNs 2026</Link>
               <Link href="/guides/best-password-managers-2026" className="block text-sm text-gray-400 hover:text-emerald-400 transition-colors">Password Managers</Link>
-              <Link href="/guides/nordvpn-vs-expressvpn-ultimate-battle-online-security" className="block text-sm text-gray-400 hover:text-emerald-400 transition-colors">NordVPN vs ExpressVPN</Link>
+              <Link href="/guides/nordvpn-vs-expressvpn-2026" className="block text-sm text-gray-400 hover:text-emerald-400 transition-colors">NordVPN vs ExpressVPN</Link>
             </div>
           </div>
           <div>

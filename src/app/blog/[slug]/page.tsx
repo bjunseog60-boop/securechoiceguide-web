@@ -47,8 +47,8 @@ const blogPosts: Record<string, BlogPost> = {
       ] },
     ],
     relatedGuides: [
-      { title: 'Best VPNs 2026', slug: 'best-vpns-2026-ultimate-online-privacy' },
-      { title: 'NordVPN vs ExpressVPN', slug: 'nordvpn-vs-expressvpn-ultimate-battle-online-security' },
+      { title: 'Best VPNs 2026', slug: 'best-vpn-2026-privacy-streaming-reviews' },
+      { title: 'NordVPN vs ExpressVPN', slug: 'nordvpn-vs-expressvpn-2026' },
       { title: 'Online Privacy Guide', slug: 'complete-online-privacy-guide-2026' },
     ],
   },
@@ -82,8 +82,8 @@ const blogPosts: Record<string, BlogPost> = {
       ] },
     ],
     relatedGuides: [
-      { title: 'Best VPNs 2026', slug: 'best-vpns-2026-ultimate-online-privacy' },
-      { title: 'NordVPN vs ExpressVPN', slug: 'nordvpn-vs-expressvpn-ultimate-battle-online-security' },
+      { title: 'Best VPNs 2026', slug: 'best-vpn-2026-privacy-streaming-reviews' },
+      { title: 'NordVPN vs ExpressVPN', slug: 'nordvpn-vs-expressvpn-2026' },
     ],
   },
   'password-security-guide': {

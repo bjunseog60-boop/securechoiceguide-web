@@ -21,8 +21,8 @@ export default function NotFound() {
         <h2 className="font-body font-bold text-white text-sm mb-3">Popular right now</h2>
         <div className="space-y-2 text-left">
           {[
-            { title: 'Best VPNs 2026', href: '/guides/best-vpns-2026-ultimate-online-privacy' },
-            { title: 'NordVPN vs ExpressVPN', href: '/guides/nordvpn-vs-expressvpn-ultimate-battle-online-security' },
+            { title: 'Best VPNs 2026', href: '/guides/best-vpn-2026-privacy-streaming-reviews' },
+            { title: 'NordVPN vs ExpressVPN', href: '/guides/nordvpn-vs-expressvpn-2026' },
             { title: 'Best Password Managers', href: '/guides/best-password-managers-2026' },
             { title: 'Online Privacy Guide', href: '/guides/complete-online-privacy-guide-2026' },
           ].map((link) => (
